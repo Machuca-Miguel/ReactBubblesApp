@@ -1,0 +1,30 @@
+.navbarApp{
+    height: 10vh;
+    background-color:#124870;
+    display: flex;
+    align-items: center;
+    padding: 0 4vw;
+    justify-content: space-between;
+    color: #98c1d9 ;
+
+
+    Button {
+        background-color: #98c1d9;
+        border-color:#98c1d9;
+        max-height: 38px;
+
+    }
+    Button:hover{
+        background-color: #293241;
+        border-color: #293241
+    }
+    .inputSearch{
+        border-top-right-radius: 0px ;
+        border-bottom-right-radius: 0px ;
+    }
+    .buttonSearch{
+        border-top-left-radius: 0px ;
+        border-bottom-left-radius: 0px ;
+    }
+    
+}

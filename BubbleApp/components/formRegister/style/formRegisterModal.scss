@@ -1,0 +1,24 @@
+.modalNavFoot{
+    
+    background-color: #3d5a80!important;
+  
+    color: #98c1d9 ;
+
+    Button {
+        background-color: #98c1d9;
+        border-color:#98c1d9;
+    }
+    Button:hover{
+        background-color: #293241;
+        border-color: #293241
+    }
+  
+}
+.modalBody{
+
+
+    .focus:focus {
+        border:1px solid #5aa6d8;
+        box-shadow: 0 0 30px #5aa6d8;
+      }
+}

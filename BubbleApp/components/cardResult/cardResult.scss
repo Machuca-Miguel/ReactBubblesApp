@@ -1,0 +1,84 @@
+.userCard{
+    padding: 10px;
+    width: 250px;
+    height: fit-content!important;
+    background-color: rgba(255, 255, 255, 0.246)!important; 
+    backdrop-filter: blur(30px);
+    align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    img{
+       
+        mix-blend-mode: color-burn ;
+        border: 1px solid #3d5a80;
+        border-radius: 100%;
+    }
+
+  
+    button{
+        background-color: #98c1d9;
+        border-color:#98c1d9
+    }
+    Button:hover{
+        background-color: #293241;
+        border-color: #293241
+    }
+}
+
+.contFishesPpal{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.242);
+    backdrop-filter: blur(2px);
+    border-radius: 16px;
+    overflow-y: auto;
+
+
+    .contFishes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 10px;
+        padding: 2vw;
+        
+
+
+        .fishCard{
+            display: flex;
+            flex-direction: row !important;
+            height: 300px;
+            max-width: 800px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+            img{
+                width:300px;
+                border-radius: 6px 0px 0 6px; 
+                object-fit: cover
+                
+            };
+
+            button{
+                background-color: #98c1d9;
+                border-color:#98c1d9;
+                max-height: 38px;
+                align-self: end;;
+            }
+            Button:hover{
+                background-color: #293241;
+                border-color: #293241
+            }
+        }
+    
+    }
+}
+.contFishesPpal::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(191, 191, 191, 0.221);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .contFishesPpal::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.285);
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+  }
